@@ -1,0 +1,301 @@
+@keyframes innerCircle1 
+{
+    0%
+    {
+        transform: scale(0);
+        opacity: 0%;
+    }
+    100%
+    {
+        transform: scale(0.75);
+        opacity: 100%;
+    }
+}
+
+@keyframes outerCircle1 
+{
+    0%
+    {
+        transform: scale(1.3);
+        opacity: 0%;
+        rotate: 0deg;
+    }
+    100%
+    {
+        transform: scale(1);
+        opacity: 100%;
+        rotate: 360deg;
+    }
+}
+
+@keyframes taskList1
+{
+    0%
+    {
+        transform: scale(0);
+        top: 75%;
+    }
+    100%
+    {
+        transform: scale(0.8);
+        top: 16.5%;
+    }
+}
+
+@keyframes checkmark1
+{
+    0%
+    {
+        opacity: 0%;
+    }
+    30%
+    {
+        opacity: 50%;
+    }
+    100%
+    {
+        opacity: 100%;
+    }
+}
+
+@keyframes pencil1
+{
+    0%
+    {
+        rotate: 0deg;
+        
+    }
+    50%
+    {
+        rotate: -10deg;
+    }
+    100%
+    {
+        rotate: -10deg;
+        top: 50px;
+        left: 405px;
+    }
+}
+
+@keyframes redFlag1
+{
+    0%
+    {
+        rotate: 0deg;
+        scale: 0;
+    }
+    100%
+    {
+        rotate: 25deg;
+        scale: 1;
+    }
+}
+
+@keyframes exclamationMark1
+{
+    0%
+    {
+        scale: 0;
+    }
+    50%
+    {
+        scale: 0.15;
+    }
+    100%
+    {
+        scale: 0.2;
+    }
+}
+
+@keyframes pencil2 {
+    0%
+    {
+        transform: rotate(-10deg);
+        scale: 0.5;
+        transform-origin: 280px 240px;
+        opacity: 100%;
+    }
+    100%
+    {
+        transform: rotate(-30deg);
+        scale: 0.1;
+        transform-origin: 280px 240px;
+        opacity: 0%;
+    }
+}
+
+@keyframes checkmark2 
+{
+    0%
+    {
+        scale: 1;
+        opacity: 100%;
+    }
+    100%
+    {
+        scale: 0;
+        opacity: 0%;
+    }
+}
+
+@keyframes redFlag2
+{
+    0%
+    {
+        rotate: 25deg;
+        scale: 1;
+    }
+    80%
+    {
+        rotate: 5deg;
+        scale: 0.8;
+    }
+    100%
+    {
+        rotate: 0deg;
+        scale: 0;
+    }
+}
+
+@keyframes exclamationMark2
+{
+    0%
+    {
+        scale: 0.2;
+        rotate: 0deg;
+    }
+    20%
+    {
+        scale: 0.3;
+        rotate: -20deg;
+    }
+    100%
+    {
+        scale: 0;
+        rotate: 30deg;
+    }
+}
+
+@keyframes taskList2
+{
+    0%
+    {
+        scale: 0.8;
+        top: 16.5%;
+    }
+    75%
+    {
+        scale: 0.9;
+        top: -10%;
+    }
+    100%
+    {
+        scale: 1;
+        top: -30%;
+    }
+}
+
+@keyframes innerCircle2
+{
+    0%
+    {
+        transform: scale(0.75);
+        opacity: 100%;
+    }
+    25%
+    {
+        transform: scale(0.9);
+        opacity: 100%;
+    }
+    100%
+    {
+        transform: scale(0);
+        opacity: 0%;
+    }
+}
+
+@keyframes outerCircle2
+{
+    0%
+    {
+        rotate: 0deg;
+    }
+    50%
+    {
+        rotate: 180deg;
+    }
+    100%
+    {
+        rotate: 360deg;
+    }
+}
+
+.innerCircleAnimated1
+{
+    animation: innerCircle1 1s forwards;
+}
+
+.outerCircleAnimated1
+{
+    animation: outerCircle1 1s forwards;
+}
+
+.taskListAnimated1
+{
+    animation: taskList1 1.5s forwards;
+}
+
+.checkmarkAnimated1
+{
+    animation: checkmark1 2s forwards;
+}
+
+.pencilAnimated1
+{
+    animation: pencil1 1s forwards;
+}
+
+.redFlagAnimated1
+{
+    animation: redFlag1 0.5s forwards;
+}
+
+.exclamationMarkAnimated1
+{
+    animation: exclamationMark1 0.5s forwards;
+}
+
+.pencilAnimated2
+{
+    animation: pencil2 1s forwards;
+}
+
+.checkmarkAnimated2
+{
+    animation: checkmark2 1.2s forwards;
+}
+
+.redFlagAnimated2
+{
+    animation: redFlag2 1s forwards;
+}
+
+.exclamationMarkAnimated2
+{
+    animation: exclamationMark2 1s forwards;
+}
+
+.taskListAnimated2
+{
+    animation: taskList2 1s forwards;
+}
+
+.innerCircleAnimated2
+{
+    animation: innerCircle2 1s forwards;
+}
+
+.outerCircleAnimated2
+{
+    animation: outerCircle2 2s infinite;
+}

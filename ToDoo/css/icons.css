@@ -1,0 +1,72 @@
+::-webkit-scrollbar
+{
+    overflow: hidden;
+}
+
+.backHolder
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    position: absolute;
+}
+
+.backHolder img
+{
+    position: absolute;
+}
+
+.innerCircle
+{
+    z-index: 1;
+}
+
+.taskList
+{
+    z-index: 1;
+    transform: scale(0.8);
+}
+
+.backCover
+{
+    z-index: 2;
+    transform: scale(0.33);
+}
+
+.outerCircle
+{
+    z-index: 3;
+}
+
+.checkmark
+{
+    z-index: 3;
+    transform: scale(0.1);
+    translate: -10% -12.4%;
+}
+
+.redFlag
+{
+    z-index: 3;
+    transform: scale(0.15);
+    translate: -7% 1%;
+    rotate: 25deg;
+}
+
+.exclamationMark
+{
+    z-index: 3;
+    transform: scale(0.4);
+    translate: -9.6% 12%;
+}
+
+.pencil
+{
+    z-index: 4;
+    transform: scale(0.5);
+    translate: -1% -33%;
+}

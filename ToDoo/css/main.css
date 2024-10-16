@@ -1,0 +1,217 @@
+*
+{
+    -webkit-user-drag: none;
+    user-select: none;
+}
+
+body
+{
+    font-family: "nerko";
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+input,textarea
+{
+    font-family: "nerko";
+    resize: none;
+    cursor: pointer;
+}
+
+.mainHolder
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.invisible
+{
+    display: none;
+}
+
+.simpleFormHolder 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.simpleFormHolder form 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.choiceFormHolder
+{
+    border: 5px solid black;
+    border-radius: 100px;
+    overflow: hidden;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.choice
+{
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 100px;
+    border: 2px solid black;
+}
+
+.selectedM
+{
+    background-color: blue;
+}
+
+.selectedF
+{
+    background-color: magenta;
+}
+
+.selectedNB
+{
+    background-color: yellow;
+}
+
+.dateSelector
+{
+    width: 330px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+.selector
+{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.arrow
+{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.imageBtn 
+{
+    margin: 4px;
+    border-radius: 50%;
+    border: 4px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+}
+
+.stdBtn
+{
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.pfpHolder
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnHolder
+{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pfpDisplay
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.borderedImg
+{
+    border-radius: 50%;
+    overflow: hidden;
+    border: 10px solid black;
+}
+
+.adaptedBtn
+{
+    cursor: pointer;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.description
+{
+    top: -20%;
+}
+
+.recapOptions
+{
+    width: 400px;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.recapOptions div
+{
+    width: 50%;
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.recapInput
+{
+    height: 50%;
+    width: 100%;
+}
